@@ -1,4 +1,9 @@
-from Code.ESAPI import ESAPI, on_subscribe
+import platform
+
+if platform.system() == "Windows":
+    from Code.ESAPI import ESAPI, on_subscribe
+else:
+    from Code.ESAPILinux import ESAPI, on_subscribe
 
 
 @on_subscribe
@@ -16,6 +21,12 @@ def test_api():
               port=7171,
               username='ES',
               password='123456')
+    # api.login(auth=auth,
+    #           ip='211.144.194.243',
+    #           port=55019,
+    #           username='JR921019',
+    #           password='qs123876')
+    api.subscribe(0, 'COMEX', 'F', 'GC', '2106')  # 可以订阅多个
 
 
 if __name__ == '__main__':
