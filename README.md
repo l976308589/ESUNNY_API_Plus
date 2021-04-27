@@ -1,5 +1,9 @@
-﻿ESunnyAPI2.0是一款基于的易盛信息官方封装开源库，用于易盛信息的行情获取以及交易。
+ESunnyAPI2.0是一款基于的易盛信息官方封装开源库，用于易盛信息的行情获取以及交易。
 如果你在开发易盛信息程序的时候遇到了奇奇怪怪的问题，请使用Quote.exe，其中打包了详尽的错误处理，可以快速定位问题。
+
+Windows、Linux都可以使用哦！！
+
+不限语言哦！！！
 
 
 基于ESunnyAPI发展而来，ESunnyAPI2.0更加灵活、易用;三行代码搞定;1.0版本https://github.com/l976308589/ESunnyAPI
@@ -54,13 +58,15 @@ if __name__ == '__main__':
 ```
 --------------------
 # 运行
-  - 慵懒版:直接运行Quote.exe
-  - 勤劳版:运行Quote.py
+  - 慵懒版:直接运行Quote.exe（Windows系统）或者Quote.out（linux系统）
+  - 勤劳版:运行Quote.py（不限系统）
 
 安装第三方库
 --------------------
 
     pip install -r requirements.txt(使用python3.7)
+    或者
+    conda env create -f environment.yml
 
 有任何问题请联系QQ:976308589;
 --------------------
