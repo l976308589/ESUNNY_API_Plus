@@ -21,11 +21,6 @@ def test_api():
               port=7171,
               username='ES',
               password='123456')
-    # api.login(auth=auth,
-    #           ip='211.144.194.243',
-    #           port=55019,
-    #           username='JR921019',
-    #           password='qs123876')
     api.subscribe(0, 'COMEX', 'F', 'GC', '2106')  # 可以订阅多个
 
 
