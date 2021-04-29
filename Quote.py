@@ -21,6 +21,7 @@ def test_api():
               port=7171,
               username='ES',
               password='123456')
+    api.subscribe(0, 'COMEX', 'F', 'GC', '2106')  # 可以订阅多个
 
 
 if __name__ == '__main__':
