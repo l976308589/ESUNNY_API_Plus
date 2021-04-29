@@ -1,5 +1,5 @@
 import platform
-
+# 适配不同
 if platform.system() == "Windows":
     from Code.ESAPI import ESAPI, on_subscribe
 else:
