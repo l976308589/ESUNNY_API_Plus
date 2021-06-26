@@ -5,6 +5,7 @@ Windows、Linux都可以使用哦！！
 
 不限语言哦！！！
 
+gitee有备份-适合国内小伙伴，https://gitee.com/Olson_Code/ESUNNY_API_Plus
 
 基于ESunnyAPI发展而来，ESunnyAPI2.0更加灵活、易用;三行代码搞定;1.0版本https://github.com/l976308589/ESunnyAPI
 -----------------------------------------------
