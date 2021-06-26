@@ -275,7 +275,7 @@ class SMTPServer(BaseServer):
              timeout: int or float or None):
 
         if timeout is not None:
-            self.server.timeout = timeout
+            self.server.TimeOut = timeout
 
         self.server.sendmail(self.username, recipients, mail.get_mime_as_string())
 
